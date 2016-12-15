@@ -124,11 +124,6 @@ h1 {
     background-color: #F7F7F7;
   }
 
-  #contact {
-    height: 100vh;
-    background-color: #FFC2B8;
-  }
-
   #faq {
     height: 100vh;
     background-color: #F7F7F7;
@@ -137,6 +132,8 @@ h1 {
 
   h2 {
     margin: 0px;
+    font-weight: 300;
+    font-size: 20px;
   }
 
 
@@ -157,6 +154,7 @@ h1 {
     display: block;
     color: #FFFFFF;
     font-size: 14px;
+    padding-top: 50px;
   }
 
 .submit {
@@ -212,7 +210,6 @@ a {
 }
 
 #mc_embed_signup {
-  background:#fff;
   clear:left;
   font:14px Helvetica,Arial,sans-serif;
   width:100%;
