@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sam Assistant</title>
   <link rel="stylesheet" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet">
+  <link href="http://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <link href="https://necolas.github.io/normalize.css/5.0.0/normalize.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro:300,400,500,700,900" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="images/sam-favicon.png"/>
 </head>
 <body>
@@ -15,53 +18,63 @@
         <h1 class="sam-logo">Sam</h1>
       </div>
       <ul class="nav">
-        <li class="nav-item"><a href="#FAQ">FAQ</a></li>
         <li class="nav-item"><a href="#contact">CONTACT</a></li>
-        <li class="nav-item"><a href="#journal">JOURNAL</a></li>
         <li class="nav-item"><a href="#product">PRODUCT</a></li>
-        <li class="nav-item"><a href="#assistant">ASSISTANT</a></li>
+        <li class="nav-item"><a href="#assistant">HOW IT WORKS ?</a></li>
       </ul>
     </nav>
   </header>
+
   <!-- BANNER -->
+  <div class="container">
   <div class="banner">
     <div class="banner" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(0,0,0,0.7) 50%),
     url('images/banner.png');">
     <!-- TO CHANGE -->
     <h1 class="desc">You still struggle with <strong>creating</strong> new <strong>habits</strong> that increase your <strong>productivity, life</strong> and <strong>health</strong>? </h1>
-    <button type="button" class="btn"><a href="#newsletter">Stay updated</a></button>
-    <p class="info">*This application is currently in development. We will give you information regularly.</p>
-    </div>
+    <button type="button" class="btn"><a href="#contact">Stay tuned</a></button>
+    <p class="info">*This application is currently in development. Don't hesitate to subscribe to our newsletter, We will keep you informed on a regular basis.</p>
   </div>
-  <!-- ASSISTANT -->
-  <div id="assistant">
-    <h2>Your smart assistant</h2>
-    <p></p>
-  </div>
-  <!-- PRODUCT -->
-  <div id="product">
-    <h2>Who's Sam?</h2>
-    <p></p>
-    <h3>A bea... what?</h3>
-    <p></p>
-  </div>
-  <!-- JOURNAL -->
-  <div id="journal">
+</div>
 
+<!-- ASSISTANT -->
+<div id="assistant">
+  <h2>Your smart assistant</h2>
+  <img class="beacon-image" src="images/beacon-transparent.png" alt="Sam's beacon">
+  <p></p>
+</div>
+
+<!-- PRODUCT -->
+<div id="product">
+  <div class="iphone-banner" style="background: url('images/iphone-hand-beacon.png'); background-repeat: no-repeat; background-size: cover;">
   </div>
+
   <!-- NEWSLETTER -->
-  <div id="newsletter">
-    <p>Join us in our journey and stay informed with all latest news about your next smart assistant.</p>
-    <input type="text" placeholder="hello@sam.com" class="email">
-    <button class="btn">Submit</button>
-  </div>
-  <!-- FOOTER -->
-  <footer>
-    <h3>
+  <!-- Begin MailChimp Signup Form -->
 
-    </h3>
-    <p>
-    </p>
+  <!--End mc_embed_signup-->
+
+  <!-- FOOTER -->
+  <footer id="contact">
+  <h2 class="text-center">Join us in our journey and receive the latest news about Sam, your assistant, in your mailbox.</h2>
+  <div id="mc_embed_signup">
+    <form action="//sam-assist.us14.list-manage.com/subscribe/post?u=45f1bdc923238c6578b61f9e4&amp;id=ae121f54eb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_45f1bdc923238c6578b61f9e4_ae121f54eb" tabindex="-1" value=""></div>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      </div>
+    </form>
+  </div>
+  <h2 class="text-center">Willing to send us an email?</h2>
+  <button type="button" class="btn"><a href="mailto:">Send an email</a></button>
+  </div>
+</div>
+
+
+
   </footer>
+  </div>
 </body>
 </html>
