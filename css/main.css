@@ -108,6 +108,7 @@ h1 {
   #assistant {
     height: 100vh;
     background-color: #F7F7F7;
+    padding-top: 50px;
   }
 
   #product {
@@ -129,8 +130,12 @@ h1 {
     background-color: #F7F7F7;
   }
 
+h2{
+  font-weight: 500;
+  font-size: 24px;
+}
 
-  h2 {
+  h3 {
     margin: 0px;
     font-weight: 300;
     font-size: 20px;
