@@ -1,79 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sam Assistant</title>
-  <link rel="stylesheet" href="css/main.css">
-  <link href="http://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-  <link href="https://necolas.github.io/normalize.css/5.0.0/normalize.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Maven+Pro:300,400,500,700,900" rel="stylesheet">
-  <link rel="shortcut icon" type="image/png" href="images/sam-favicon.png"/>
-</head>
-<body>
-  <header>
-    <!-- NAVBAR -->
-    <nav class="nav-bar">
-      <div class="logo">
-        <h1 class="sam-logo">Sam</h1>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sam Assistant</title>
+    <link rel="stylesheet" type="text/css" href="css/application.css">
+    <link href="http://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <link href="https://necolas.github.io/normalize.css/5.0.0/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:300,400,500,700,900" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/sam-favicon.png"/>
+  </head>
+  <body>
+    <header>
+      <!-- NAVBAR -->
+      <nav class="nav-bar">
+        <div class="logo">
+          <h1 class="sam-logo"><a href="#top">Sam</a></h1>
+        </div>
+        <ul class="nav">
+          <li class="nav-item"><a href="#subscribe">CONTACT</a></li>
+          <li class="nav-item"><a href="#product">PRODUCT</a></li>
+          <li class="nav-item"><a href="#assistant">HOW IT WORKS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- BANNER -->
+    <div class="banner">
+      <div class="banner" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(0,0,0,0.7) 50%),
+        url('images/banner.png');">
+        <!-- TO CHANGE -->
+        <h1 class="desc text-center">
+          Keep seeing all your plants <strong>dying</strong>?
+          <br> Can't <strong>remember</strong> to water them?
+          <br> Try our <strong>location-based reminder</strong>!
+        </h1>
+        <button type="button" class="btn"><a href="#subscribe">Stay tuned</a></button>
+        <p class="info">
+          *This application is currently in development.
+          Don't hesitate to subscribe to our newsletter, we will keep you informed on a regular basis.
+        </p>
       </div>
-      <ul class="nav">
-        <li class="nav-item"><a href="#contact">CONTACT</a></li>
-        <li class="nav-item"><a href="#product">PRODUCT</a></li>
-        <li class="nav-item"><a href="#assistant">HOW IT WORKS</a></li>
-      </ul>
-    </nav>
-  </header>
+    </div>
 
-  <!-- BANNER -->
-  <div class="container">
-  <div class="banner">
-    <div class="banner" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(0,0,0,0.7) 50%),
-    url('images/banner.png');">
-    <!-- TO CHANGE -->
-    <h1 class="desc text-center">Keep seeing all your plants <strong>dying</strong>? <br /> Can't <strong>remember</strong> to water them? <br /> Try our <strong>location-based reminder</strong>!</h1>
-    <button type="button" class="btn"><a href="#contact">Stay tuned</a></button>
-    <p class="info">*This application is currently in development. Do not hesitate to subscribe to our newsletter, we will keep you informed on a regular basis.</p>
-  </div>
-</div>
+    <!-- ASSISTANT -->
+    <div id="assistant">
+      <h2 class="text-center">How does it work ?</h2>
+      <p>
+        Each beacon has a Bluetooth® Low Energy transmitter.
+        It broadcasts tiny radio signals over the air containing unique,
+        location-specific data.
+      </p>
 
-<!-- ASSISTANT -->
-<div id="assistant">
-  <h2 class="text-center">How does it work ?</h2>
-  <img class="beacon-image" src="images/beacon-transparent.png" alt="Sam's beacon">
-  <p></p>
-</div>
+      <p>
+        Modern smartphones constantly scan for these signals.
+        If they enter their range an associated app responds with the desired action.
+      </p>
+    </div>
 
-<!-- PRODUCT -->
-<div id="product">
-  <div class="iphone-banner" style="background: url('images/iphone-hand-beacon.png'); background-repeat: no-repeat; background-size: cover;">
-  </div>
+    <!-- PRODUCT -->
+    <div id="product" class="iphone-banner">
+      <img src="images/iphone-hand-beacon.png" alt="" class="iphone-banner banner">
+    </div>
 
-  <!-- NEWSLETTER -->
-  <!-- Begin MailChimp Signup Form -->
+    <!-- HOUSE PLAN -->
+    <div id="house-plan">
+      <img src="" alt="">
+      <p>
+        Building an OS for the physical world
+        Our technology stack is making phones smarter, making locations more interactive,
+        even giving ordinary objects a way to communicate information with smart phones
+        or other devices. We've given smartphones extra senses to “see” more of
+        the world around them and know more about their context,
+        opening up an endless set of possibilities for richer, more personalized experiences.
+      </p>
+    </div>
 
-  <!--End mc_embed_signup-->
+    <!-- FOOTER -->
+    <footer id="subscribe">
+      <h3 class="text-center">
+        Join us in our journey and receive the latest news about Sam, your assistant, in your mailbox.
+      </h3>
+      <div id="mc_embed_signup">
+        <form action="//sam-assist.us14.list-manage.com/subscribe/post?u=45f1bdc923238c6578b61f9e4&amp;id=ae121f54eb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="email address" required class="email-input">
 
-  <!-- FOOTER -->
-  <footer id="contact">
-  <h3 class="text-center">Join us in our journey and receive the latest news about Sam, your assistant, in your mailbox.</h3>
-  <div id="mc_embed_signup">
-    <form action="//sam-assist.us14.list-manage.com/subscribe/post?u=45f1bdc923238c6578b61f9e4&amp;id=ae121f54eb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div id="mc_embed_signup_scroll">
-        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_45f1bdc923238c6578b61f9e4_ae121f54eb" tabindex="-1" value=""></div>
-        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            <!--+ ======================================================================================================== +-->
+            <!--+ real people should not fill this in and expect good things - do not remove this or risk form bot signups +-->
+            <!--+  --><div style="position: absolute; left: -5000px;" aria-hidden="true">                            <!--  +-->
+            <!--+  -->  <input type="text" name="b_45f1bdc923238c6578b61f9e4_ae121f54eb" tabindex="-1" value="">     <!--  +-->
+            <!--+  --></div>                                                                                         <!--  +-->
+            <!--+ ======================================================================================================== +-->
+
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">
+            </div>
+          </div>
+        </form>
       </div>
-    </form>
-  </div>
-  <h2 class="text-center">Or send us <a href="mailto:">an email</a>!</h2>
-  </div>
-</div>
-
-
-
-  </footer>
-  </div>
-</body>
+      <h2 class="text-center">Or send us <a href="mailto:">an email</a>!</h2>
+    </footer>
+  </body>
 </html>

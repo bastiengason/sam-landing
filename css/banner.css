@@ -1,0 +1,18 @@
+.banner {
+  position: relative;
+  color: white;
+  background-color: rgba(136, 77, 255, 0.1);
+  background-size: cover !important;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.desc {
+  width: 580px;
+  text-align: left;
+}
