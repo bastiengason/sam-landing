@@ -1,0 +1,23 @@
+#assistant {
+  height: 70vh;
+  background-color: #F7F7F7;
+}
+
+#product {
+  height: 100%;
+  background-color: #FFFFFF;
+}
+
+
+#house-plan {
+  height: 70vh;
+  background-color: #F7F7F7;
+}
+
+#newsletter {
+  height: 500px;
+  background-color: #FFC2B8;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
