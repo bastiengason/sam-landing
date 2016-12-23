@@ -1,5 +1,5 @@
 #assistant {
-  height: 50vh;
+  height: 70vh;
   background-color: #F7F7F7;
 }
 
@@ -20,4 +20,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+#subscribe {
+  height: 75vh;
 }
